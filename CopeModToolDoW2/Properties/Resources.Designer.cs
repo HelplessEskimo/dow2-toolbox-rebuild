@@ -274,6 +274,16 @@ namespace ModTool.FE.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap loadingb3v3 {
+            get {
+                object obj = ResourceManager.GetObject("loadingb3v3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap toolbox_load {
             get {
                 object obj = ResourceManager.GetObject("toolbox_load", resourceCulture);

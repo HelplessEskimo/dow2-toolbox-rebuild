@@ -94,13 +94,13 @@ namespace RBFPlugin
             this.addValueToolStripMenuItem,
             this.tryToOpenFileByValueToolStripMenuItem});
             this._cms_dgvValues.Name = "_cms_dgvValues";
-            this._cms_dgvValues.Size = new System.Drawing.Size(210, 48);
+            this._cms_dgvValues.Size = new System.Drawing.Size(205, 48);
             // 
             // addValueToolStripMenuItem
             // 
             this.addValueToolStripMenuItem.Image = global::RBFPlugin.Properties.Resources.bookmarks;
             this.addValueToolStripMenuItem.Name = "addValueToolStripMenuItem";
-            this.addValueToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.addValueToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.addValueToolStripMenuItem.Text = "Add Value To Dictionary";
             this.addValueToolStripMenuItem.ToolTipText = "Adds the selected value to the corresponding key in the RBF dictionary.";
             this.addValueToolStripMenuItem.Click += new System.EventHandler(this.AddValueToolStripMenuItemClick);
@@ -109,7 +109,7 @@ namespace RBFPlugin
             // 
             this.tryToOpenFileByValueToolStripMenuItem.Image = global::RBFPlugin.Properties.Resources.document_open;
             this.tryToOpenFileByValueToolStripMenuItem.Name = "tryToOpenFileByValueToolStripMenuItem";
-            this.tryToOpenFileByValueToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.tryToOpenFileByValueToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.tryToOpenFileByValueToolStripMenuItem.Text = "Try To Open File By Value";
             this.tryToOpenFileByValueToolStripMenuItem.ToolTipText = "Try to open the file specified by the value of the current cell.";
             this.tryToOpenFileByValueToolStripMenuItem.Click += new System.EventHandler(this.TryToOpenFileByValueToolStripMenuItemClick);
@@ -119,7 +119,7 @@ namespace RBFPlugin
             this.cutTableToolStripMenuItem.Image = global::RBFPlugin.Properties.Resources.edit_cut;
             this.cutTableToolStripMenuItem.Name = "cutTableToolStripMenuItem";
             this.cutTableToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.cutTableToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.cutTableToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.cutTableToolStripMenuItem.Text = "Cut Value";
             this.cutTableToolStripMenuItem.ToolTipText = "Copies a node to the clipboard and deletes it from the RBF.";
             this.cutTableToolStripMenuItem.Click += new System.EventHandler(this.CutTableToolStripMenuItemClick);
@@ -127,9 +127,9 @@ namespace RBFPlugin
             // copyAsCorsixstringToolStripMenuItem
             // 
             this.copyAsCorsixstringToolStripMenuItem.Name = "copyAsCorsixstringToolStripMenuItem";
-            this.copyAsCorsixstringToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
-                        | System.Windows.Forms.Keys.C)));
-            this.copyAsCorsixstringToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.copyAsCorsixstringToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.C)));
+            this.copyAsCorsixstringToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.copyAsCorsixstringToolStripMenuItem.Text = "Copy As Corsix-String";
             this.copyAsCorsixstringToolStripMenuItem.ToolTipText = "Copies the selected value (/table) as a string readable by Corsix\' RBFConv.";
             this.copyAsCorsixstringToolStripMenuItem.Click += new System.EventHandler(this.CopyAsCorsixstringToolStripMenuItemClick);
@@ -139,7 +139,7 @@ namespace RBFPlugin
             this.deleteToolStripMenuItem.Image = global::RBFPlugin.Properties.Resources.edit_delete;
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             this.deleteToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.Delete;
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.ToolTipText = "Deletes a node from the RBF.";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.DeleteToolStripMenuItemClick);
@@ -148,7 +148,7 @@ namespace RBFPlugin
             // 
             this.copyIntoLibraryToolStripMenuItem.Name = "copyIntoLibraryToolStripMenuItem";
             this.copyIntoLibraryToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.C)));
-            this.copyIntoLibraryToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.copyIntoLibraryToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.copyIntoLibraryToolStripMenuItem.Text = "Copy Into Library";
             this.copyIntoLibraryToolStripMenuItem.Click += new System.EventHandler(this.CopyIntoLibraryToolStripMenuItemClick);
             // 
@@ -168,16 +168,16 @@ namespace RBFPlugin
             this.insertIntoToolStripMenuItem,
             this.insertValueIntoAllSubtablesToolStripMenuItem});
             this._cms_TableTree.Name = "cmsTableTree";
-            this._cms_TableTree.Size = new System.Drawing.Size(294, 290);
+            this._cms_TableTree.Size = new System.Drawing.Size(292, 268);
             // 
             // addValuesToRBFDictionaryToolStripMenuItem
             // 
             this.addValuesToRBFDictionaryToolStripMenuItem.Image = global::RBFPlugin.Properties.Resources.bookmarks;
             this.addValuesToRBFDictionaryToolStripMenuItem.Name = "addValuesToRBFDictionaryToolStripMenuItem";
-            this.addValuesToRBFDictionaryToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.addValuesToRBFDictionaryToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.addValuesToRBFDictionaryToolStripMenuItem.Text = "Add Values To RBF-Dictionary";
             this.addValuesToRBFDictionaryToolStripMenuItem.ToolTipText = "Adds all children of the selected table to the RBF-Dictionary using the name of t" +
-                "he table as a key.\\nThis is useful for adding the tables from attributes.rbf";
+    "he table as a key.\\nThis is useful for adding the tables from attributes.rbf";
             this.addValuesToRBFDictionaryToolStripMenuItem.Click += new System.EventHandler(this.AddValuesToRBFDictionaryToolStripMenuItemClick);
             // 
             // copyToolStripMenuItem
@@ -185,7 +185,7 @@ namespace RBFPlugin
             this.copyToolStripMenuItem.Image = global::RBFPlugin.Properties.Resources.edit_copy;
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.copyToolStripMenuItem.Text = "Copy Value";
             this.copyToolStripMenuItem.ToolTipText = "Copies a node to the clipboard.";
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.CopyToolStripMenuItemClick);
@@ -193,7 +193,7 @@ namespace RBFPlugin
             // copyValuePathToolStripMenuItem
             // 
             this.copyValuePathToolStripMenuItem.Name = "copyValuePathToolStripMenuItem";
-            this.copyValuePathToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.copyValuePathToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.copyValuePathToolStripMenuItem.Text = "Copy Value Path";
             this.copyValuePathToolStripMenuItem.ToolTipText = "Copies the full path of a node as a string to the clipboard.";
             this.copyValuePathToolStripMenuItem.Click += new System.EventHandler(this.CopyValuePathToolStripMenuItemClick);
@@ -201,9 +201,9 @@ namespace RBFPlugin
             // insertToolStripMenuItem
             // 
             this.insertToolStripMenuItem.Name = "insertToolStripMenuItem";
-            this.insertToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
-                        | System.Windows.Forms.Keys.V)));
-            this.insertToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.insertToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.V)));
+            this.insertToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.insertToolStripMenuItem.Text = "Paste Value";
             this.insertToolStripMenuItem.ToolTipText = "Overrides the selected node\'s value and type with the data from the clipboard.";
             this.insertToolStripMenuItem.Click += new System.EventHandler(this.InsertToolStripMenuItemClick);
@@ -212,14 +212,14 @@ namespace RBFPlugin
             // 
             this.insertFromLibraryToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.insertFromLibraryToolStripMenuItem.Name = "insertFromLibraryToolStripMenuItem";
-            this.insertFromLibraryToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.insertFromLibraryToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.insertFromLibraryToolStripMenuItem.Text = "Insert From Library Into Table";
             this.insertFromLibraryToolStripMenuItem.DropDownOpening += new System.EventHandler(this.InsertFromLibraryToolStripMenuItemDropDownOpening);
             // 
             // insertValueFromCorsixStringToolStripMenuItem
             // 
             this.insertValueFromCorsixStringToolStripMenuItem.Name = "insertValueFromCorsixStringToolStripMenuItem";
-            this.insertValueFromCorsixStringToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.insertValueFromCorsixStringToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.insertValueFromCorsixStringToolStripMenuItem.Text = "Insert Value From Corsix-String Into Table";
             this.insertValueFromCorsixStringToolStripMenuItem.ToolTipText = "Inserts tables and values generated by Corsix\' RBFConv into the selected table.";
             this.insertValueFromCorsixStringToolStripMenuItem.Click += new System.EventHandler(this.InsertValueFromCorsixStringToolStripMenuItemClick);
@@ -229,7 +229,7 @@ namespace RBFPlugin
             this.insertIntoToolStripMenuItem.Image = global::RBFPlugin.Properties.Resources.edit_paste;
             this.insertIntoToolStripMenuItem.Name = "insertIntoToolStripMenuItem";
             this.insertIntoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.insertIntoToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.insertIntoToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.insertIntoToolStripMenuItem.Text = "Insert Value Into Table";
             this.insertIntoToolStripMenuItem.ToolTipText = "Inserts the node from the clipboard to the table of your choice as a childnode.";
             this.insertIntoToolStripMenuItem.Click += new System.EventHandler(this.InsertIntoToolStripMenuItemClick);
@@ -237,7 +237,7 @@ namespace RBFPlugin
             // insertValueIntoAllSubtablesToolStripMenuItem
             // 
             this.insertValueIntoAllSubtablesToolStripMenuItem.Name = "insertValueIntoAllSubtablesToolStripMenuItem";
-            this.insertValueIntoAllSubtablesToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.insertValueIntoAllSubtablesToolStripMenuItem.Size = new System.Drawing.Size(291, 22);
             this.insertValueIntoAllSubtablesToolStripMenuItem.Text = "Insert Value Into All Subtables";
             this.insertValueIntoAllSubtablesToolStripMenuItem.Click += new System.EventHandler(this.InsertValueIntoAllSubtablesToolStripMenuItemClick);
             // 
@@ -269,6 +269,7 @@ namespace RBFPlugin
             // 
             // m_trvTables
             // 
+            this.m_trvTables.BackColor = System.Drawing.SystemColors.Window;
             this.m_trvTables.ContextMenuStrip = this._cms_TableTree;
             this.m_trvTables.Dock = System.Windows.Forms.DockStyle.Fill;
             this.m_trvTables.Location = new System.Drawing.Point(0, 0);
@@ -298,6 +299,7 @@ namespace RBFPlugin
             // 
             // tableLayoutPanel4
             // 
+            this.tableLayoutPanel4.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel4.ColumnCount = 2;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -374,6 +376,7 @@ namespace RBFPlugin
             // 
             // m_tbxKey
             // 
+            this.m_tbxKey.BackColor = System.Drawing.SystemColors.Window;
             this.m_tbxKey.Dock = System.Windows.Forms.DockStyle.Fill;
             this.m_tbxKey.Location = new System.Drawing.Point(53, 3);
             this.m_tbxKey.Name = "m_tbxKey";
@@ -506,6 +509,7 @@ namespace RBFPlugin
             // 
             // m_rtbCurrentUCS
             // 
+            this.m_rtbCurrentUCS.BackColor = System.Drawing.SystemColors.Window;
             this.m_rtbCurrentUCS.DetectUrls = false;
             this.m_rtbCurrentUCS.Dock = System.Windows.Forms.DockStyle.Fill;
             this.m_rtbCurrentUCS.Location = new System.Drawing.Point(75, 0);

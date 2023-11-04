@@ -37,25 +37,25 @@
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::ModTool.FE.Properties.Resources.toolbox_load;
-            this.pictureBox1.InitialImage = global::ModTool.FE.Properties.Resources.toolbox_load;
+            this.pictureBox1.Image = global::ModTool.FE.Properties.Resources.loadingb3v3;
+            this.pictureBox1.InitialImage = global::ModTool.FE.Properties.Resources.loadingb3v3;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(578, 390);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.Size = new System.Drawing.Size(768, 480);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // m_btnDonate
             // 
-            this.m_btnDonate.BackColor = System.Drawing.Color.Black;
-            this.m_btnDonate.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
+            this.m_btnDonate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(24)))));
+            this.m_btnDonate.FlatAppearance.BorderColor = System.Drawing.Color.DodgerBlue;
             this.m_btnDonate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.m_btnDonate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.m_btnDonate.ForeColor = System.Drawing.Color.White;
-            this.m_btnDonate.Location = new System.Drawing.Point(231, 355);
+            this.m_btnDonate.Location = new System.Drawing.Point(301, 263);
             this.m_btnDonate.Name = "m_btnDonate";
-            this.m_btnDonate.Size = new System.Drawing.Size(132, 23);
+            this.m_btnDonate.Size = new System.Drawing.Size(154, 31);
             this.m_btnDonate.TabIndex = 1;
             this.m_btnDonate.Text = "Support the developer";
             this.m_btnDonate.UseVisualStyleBackColor = false;
@@ -65,7 +65,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 390);
+            this.ClientSize = new System.Drawing.Size(768, 480);
             this.Controls.Add(this.m_btnDonate);
             this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -77,7 +77,6 @@
             this.Text = "Cope\'s DoW2 Toolbox Loading...";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

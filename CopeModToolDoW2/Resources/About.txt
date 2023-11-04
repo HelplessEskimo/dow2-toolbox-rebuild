@@ -1,3 +1,6 @@
+This rebuild of the Cope's DOW2 Toolbox is maintained by TheHelplessCelt. 
+- The GitHub Repo is available here: https://github.com/TheHelplessCelt/dow2-toolbox-rebuild
+
 Cope's DoW2 Toolbox has been developed by Sebastian Schöner aka cope aka Copernicus.
 Visit http://forums.relicnews.com/showthread.php?t=244248 to keep your tool up to date.
 You are responsible yourself and I won't take any blame and / or responsibility for any damage this tool might cause.

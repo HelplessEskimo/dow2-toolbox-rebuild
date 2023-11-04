@@ -48,7 +48,7 @@ namespace ScarPlugin
                         HighlightingLoader.Load(xr, HighlightingManager.Instance);
                 }
             }
-            HighlightingManager.Instance.RegisterHighlighting("LUA Highlighting", new[] { ".scar", ".lua" }, luaHighlighting);
+            HighlightingManager.Instance.RegisterHighlighting("LUA Highlighting", new[] { ".scar", ".lua", ".ai" }, luaHighlighting);
 
             LoggingManager.SendMessage("ScarEditorPlugin - Init finished");
         }
@@ -70,7 +70,7 @@ namespace ScarPlugin
 
         public override string[] FileExtensions
         {
-            get { return new[] {"scar", "lua"}; }
+            get { return new[] {"scar", "lua", "ai"}; }
         }
 
         public override FileTool LoadFile(UniFile file)

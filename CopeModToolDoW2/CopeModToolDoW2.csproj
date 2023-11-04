@@ -313,6 +313,8 @@
     <None Include="Resources\folder-open.png" />
     <None Include="Resources\application-exit.png" />
     <None Include="Resources\applications-settings.png" />
+    <None Include="Resources\loadingb3.png" />
+    <None Include="Resources\loadingb3v3.png" />
     <Content Include="toolbox.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
