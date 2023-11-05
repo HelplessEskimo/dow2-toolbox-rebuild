@@ -22,6 +22,7 @@ THE SOFTWARE.
 using System;
 using System.Linq;
 using System.Windows.Forms;
+using cope.IO.Printing;
 using ModTool.Core;
 using ModTool.FE.Properties;
 
@@ -176,5 +177,18 @@ namespace ModTool.FE
         #endregion
 
         #endregion
+
+        private void UCSSaveButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                UCSManager.SaveUCS();
+                MessageBox.Show("UCS Successfully Saved", "Save Sucessful.", MessageBoxButtons.OK);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An Error occured trying to save UCS changes, please send this Error Message to the dvelopers: " + ex, "Error", MessageBoxButtons.OK);
+            }
+        }
     }
 }

@@ -43,6 +43,7 @@
             this.m_chkbxCopyToClipboard = new System.Windows.Forms.CheckBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.m_nupIndex = new System.Windows.Forms.NumericUpDown();
+            this.UCSSaveButton = new System.Windows.Forms.Button();
             this.m_tlpMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.m_dgvStrings)).BeginInit();
             this.panel1.SuspendLayout();
@@ -153,6 +154,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.UCSSaveButton);
             this.panel2.Controls.Add(this.m_btnAdd);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(350, 86);
@@ -241,6 +243,17 @@
             this.m_nupIndex.Size = new System.Drawing.Size(98, 20);
             this.m_nupIndex.TabIndex = 8;
             // 
+            // UCSSaveButton
+            // 
+            this.UCSSaveButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.UCSSaveButton.Location = new System.Drawing.Point(0, 0);
+            this.UCSSaveButton.Name = "UCSSaveButton";
+            this.UCSSaveButton.Size = new System.Drawing.Size(246, 25);
+            this.UCSSaveButton.TabIndex = 11;
+            this.UCSSaveButton.Text = "Save UCS";
+            this.UCSSaveButton.UseVisualStyleBackColor = true;
+            this.UCSSaveButton.Click += new System.EventHandler(this.UCSSaveButton_Click);
+            // 
             // UCSEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -282,6 +295,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
-
+        private System.Windows.Forms.Button UCSSaveButton;
     }
 }
